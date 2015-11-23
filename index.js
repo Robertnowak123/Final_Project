@@ -55,6 +55,21 @@ jQuery(document).ready(function ($) {
 
 // Image Carousell end
 
+    $(window).scroll(function(){
+        console.log($(window).scrollTop());
+        if ($(window).scrollTop() > 450){
+                $("#smallmap").css({
+                "top": "28%",
+                "position": "fixed"
+                });
+           } else {
+                 $("#smallmap").css({
+                 "position": "static"
+             });
+
+}});
+        
+
 
 
 
