@@ -50,49 +50,32 @@ jQuery(document).ready(function ($) {
     $('a.control_next').click(function () {
         moveRight();
     });
+});   
 
-});    
+// Image Carousell -- end
 
-// Image Carousell end
+// Moving Smallmap animation -- start
 
     $(window).scroll(function(){
+
         console.log($(window).scrollTop());
+
         if ($(window).scrollTop() > 450){
-                $("#smallmap").css({
+
+                $("#googlemaps").css({
                 "top": "28%",
                 "position": "fixed"
                 });
-           } else {
-                 $("#smallmap").css({
+
+            } else {
+                 $("#googlemaps").css({
                  "position": "static"
              });
-
-}});
+          
+    }});
         
 
-
-
-
-
-//     $(window).scroll(function(){
-//         console.log($(window).scrollTop());
-
-//     if ($(window).scrollTop()>450{
-//         $('#smallmap').css(
-//             "position", "fixed")
-
-//     } else {
-//         $('#smallmap').css(
-//             "position", "absolute")
-
-//     });
-
-// });  
-
-// });
-
-
-
+// Moving Smallmap animation -- end
 
 
 
