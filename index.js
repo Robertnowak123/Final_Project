@@ -50,7 +50,7 @@ jQuery(document).ready(function ($) {
     $('a.control_next').click(function () {
         moveRight();
     });
-});   
+}); 
 
 // Image Carousell -- end
 
@@ -60,19 +60,134 @@ jQuery(document).ready(function ($) {
 
         console.log($(window).scrollTop());
 
-        if ($(window).scrollTop() > 450){
+        if ($(window).scrollTop() >450 && $(window).scrollTop() <=900){
 
-                $("#googlemaps").css({
+                $("#googlemaps_1").css({
                 "top": "28%",
-                "position": "fixed"
+                "position": "fixed",
+                "display": "inline",
+                });
+                 $("#googlemaps_2").css({
+                "display": "none",
                 });
 
-            } else {
-                 $("#googlemaps").css({
+        } else if ($(window).scrollTop() >900){
+
+                $("#googlemaps_1").css({
+                 "display": "none"
+                });
+
+        } else {
+
+                $("#googlemaps_1").css({
                  "position": "static"
-             });
-          
-    }});
+                });
+        }});
+
+    $(window).scroll(function(){
+
+        console.log($(window).scrollTop());
+
+        if ($(window).scrollTop() >900 && $(window).scrollTop() <=1600){
+
+                $("#googlemaps_2").css({
+                "top": "28%",
+                "position": "fixed",
+                "display": "inline",
+                });
+
+        } else if ($(window).scrollTop() >1600){
+
+                $("#googlemaps_2").css({
+                 "display": "none"
+                });
+
+        } else {
+
+                $("#googlemaps_2").css({
+                 "position": "static",
+                 "display": "none"
+                });
+        }});
+
+
+    $(window).scroll(function(){
+
+        console.log($(window).scrollTop());
+
+        if ($(window).scrollTop() >1600 && $(window).scrollTop() <=2200){
+
+                $("#googlemaps_3").css({
+                "top": "28%",
+                "position": "fixed",
+                "display": "inline",
+                });
+
+        } else if ($(window).scrollTop() >2200){
+
+                $("#googlemaps_3").css({
+                 "display": "none"
+                });
+
+        } else {
+
+                $("#googlemaps_3").css({
+                 "position": "static",
+                 "display": "none"
+                });
+        }});
+
+    $(window).scroll(function(){
+
+        console.log($(window).scrollTop());
+
+        if ($(window).scrollTop() >2200 && $(window).scrollTop() <=2700){
+
+                $("#googlemaps_4").css({
+                "top": "28%",
+                "position": "fixed",
+                "display": "inline",
+                });
+
+        } else if ($(window).scrollTop() >2700){
+
+                $("#googlemaps_4").css({
+                 "display": "none"
+                });
+
+        } else {
+
+                $("#googlemaps_4").css({
+                 "position": "static",
+                 "display": "none"
+                });
+        }});
+
+    $(window).scroll(function(){
+
+        console.log($(window).scrollTop());
+
+        if ($(window).scrollTop() >2700 && $(window).scrollTop() <=3000){
+
+                $("#googlemaps_5").css({
+                "top": "28%",
+                "position": "fixed",
+                "display": "inline",
+                });
+
+        } else if ($(window).scrollTop() >3000){
+
+                $("#googlemaps_5").css({
+                 "display": "none"
+                });
+
+        } else {
+
+                $("#googlemaps_5").css({
+                 "position": "static",
+                 "display": "none"
+                });
+        }});
         
 
 // Moving Smallmap animation -- end

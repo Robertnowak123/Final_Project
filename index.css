@@ -202,23 +202,103 @@ a.control_next {
   font-size: 20px
 }
 
-.left_map {
+#left_map_1 {
   float: left;
-  height: 1000;
+  height: 2965;
   width: 350;
   border-style: solid;
 }
 
-#googlemaps {
+#googlemaps_1 {
   background-attachment: fixed;
   background-repeat: no-repeat;
   margin-top: 50px;
-  border-radius: 15px;
- /* position: fixed;*/
-  /*top: 50%;*/
+  border-radius: 20px;
+  clear: both;
+/*  display: none;*/
+}
+
+#googlemaps_2 {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  border-radius: 20px;
+  z-index: 1000;
+  position: absolute;
+  clear: both;
+  top: 168%;
+/*  display: none;*/
+}
+
+#googlemaps_3 {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  border-radius: 20px;
+  z-index: 1000;
+  position: absolute;
+  clear: both;
+  top: 260%;
+/*  display: none;*/
+}
+
+#googlemaps_4 {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  border-radius: 20px;
+  z-index: 1000;
+  position: absolute;
+  clear: both;
+  top: 260%;
+/*  display: none;*/
+}
+
+#googlemaps_5 {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  border-radius: 20px;
+  z-index: 1000;
+  position: absolute;
+  clear: both;
+  top: 260%;
+/*  display: none;*/
 }
 
 #main_content_1 {
+  float: left;
+  position: static;
+  padding-left: 50px;
+  border-style: solid;
+  width: 920;
+}
+
+#main_content_2 {
+  float: left;
+  position: static;
+  padding-left: 50px;
+  border-style: solid;
+  width: 920;
+}
+
+#main_content_3 {
+  float: left;
+  position: static;
+  padding-left: 50px;
+  border-style: solid;
+  width: 920;
+}
+
+#main_content_4 {
+  float: left;
+  position: static;
+  padding-left: 50px;
+  border-style: solid;
+  width: 920;
+}
+
+#main_content_5 {
   float: left;
   position: static;
   padding-left: 50px;
@@ -234,6 +314,8 @@ h2 {
 p {
   font-size: 18px;
 }
+
+
 
 
 
