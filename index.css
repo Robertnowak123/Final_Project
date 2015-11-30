@@ -17,8 +17,9 @@
 .header {
   float: left;
   display: inline-block;
+  margin-left: 95px;
   height: 65px;
-  width: 100%;
+  width: 1200px;
   background-color: #B22222;
   position: fixed;
   margin-top: -20px;
@@ -77,7 +78,7 @@ li a:hover {
   display: inline-block;
   font-size: 32px;
   font-weight: normal;
-  margin-top: 13px;
+  margin-top: 18px;
   margin-left: 10px;
   text-transform: uppercase;
   z-index: 150;
@@ -125,7 +126,9 @@ h1 {
   position: relative;
   float: left;
   overflow: hidden;
-  margin: 20px auto 0 auto;
+  /*margin: 20px auto 0 auto;*/
+  margin-left: 70px;
+  margin-top: 45px;
   border-radius: 4px;
   z-index: -10;
 }
@@ -136,24 +139,25 @@ h1 {
   padding: 0;
   height: 200px;
   list-style: none;
+  background-color: white;
 }
 
 #slider ul li {
   position: relative;
   display: block;
   float: left;
-  margin: 0;
+  margin-left: 6px;
   padding: 0;
-  width: 1250;
-  height: 500px;
-  background: #ccc;
+  width: 1225px;
+  height: 600px;
+  background: white;
   text-align: center;
   line-height: 300px;
   z-index: -10;
 }
 
 a.control_prev, a.control_next {
-  position: absolute ;
+  position: absolute;
   top: 40%;
   z-index: 100;
   display: block;
@@ -169,6 +173,10 @@ a.control_prev, a.control_next {
   cursor: pointer;
 }
 
+a.control_next {
+  margin-right: 100px;
+}
+
 a.control_prev:hover, a.control_next:hover {
   opacity: 1;
   -webkit-transition: all 0.2s ease;
@@ -176,12 +184,13 @@ a.control_prev:hover, a.control_next:hover {
 
 a.control_prev {
   border-radius: 0 2px 2px 0;
+  margin-left: 95px;
 }
 
 a.control_next {
   right: 0;
   border-radius: 2px 0 0 2px;
-  margin-right: 6px;
+  margin-right: 112px;
 }
 
 .slider_option {
@@ -195,6 +204,8 @@ a.control_next {
   float: left;
   padding-left: 25%;
   padding-right: 25%;
+  margin-left: 95px;
+  margin-right: 104px;
   border-style: solid;
 }
 
@@ -204,8 +215,9 @@ a.control_next {
 
 #left_map_1 {
   float: left;
-  height: 2965;
+  height: 3294;
   width: 350;
+  margin-left: 95px;
   border-style: solid;
 }
 
@@ -214,6 +226,7 @@ a.control_next {
   background-repeat: no-repeat;
   margin-top: 50px;
   border-radius: 20px;
+  margin-left: 25px;
   clear: both;
 /*  display: none;*/
 }
@@ -226,6 +239,7 @@ a.control_next {
   z-index: 1000;
   position: absolute;
   clear: both;
+  margin-left: 25px;
   top: 168%;
 /*  display: none;*/
 }
@@ -238,6 +252,7 @@ a.control_next {
   z-index: 1000;
   position: absolute;
   clear: both;
+  margin-left: 25px;
   top: 260%;
 /*  display: none;*/
 }
@@ -250,6 +265,7 @@ a.control_next {
   z-index: 1000;
   position: absolute;
   clear: both;
+  margin-left: 25px;
   top: 260%;
 /*  display: none;*/
 }
@@ -262,6 +278,7 @@ a.control_next {
   z-index: 1000;
   position: absolute;
   clear: both;
+  margin-left: 25px;
   top: 260%;
 /*  display: none;*/
 }
@@ -271,7 +288,7 @@ a.control_next {
   position: static;
   padding-left: 50px;
   border-style: solid;
-  width: 920;
+  width: 788;
 }
 
 #main_content_2 {
@@ -279,7 +296,7 @@ a.control_next {
   position: static;
   padding-left: 50px;
   border-style: solid;
-  width: 920;
+  width: 788;
 }
 
 #main_content_3 {
@@ -287,7 +304,7 @@ a.control_next {
   position: static;
   padding-left: 50px;
   border-style: solid;
-  width: 920;
+  width: 788;
 }
 
 #main_content_4 {
@@ -295,7 +312,7 @@ a.control_next {
   position: static;
   padding-left: 50px;
   border-style: solid;
-  width: 920;
+  width: 788;
 }
 
 #main_content_5 {
@@ -303,7 +320,11 @@ a.control_next {
   position: static;
   padding-left: 50px;
   border-style: solid;
-  width: 920;
+  width: 788;
+}
+
+#main_content_1, #main_content_2, #main_content_3, #main_content_4, #main_content_5 {
+  margin-right: 100px;
 }
 
 h2 {
