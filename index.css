@@ -169,13 +169,9 @@ a.control_prev, a.control_next {
   color: #fff;
   text-decoration: none;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 30px;
   opacity: 0.8;
   cursor: pointer;
-}
-
-a.control_next {
-  margin-right: 100px;
 }
 
 a.control_prev:hover, a.control_next:hover {
@@ -346,8 +342,11 @@ p {
 
 .main_content_images_ul {
   background-color: #FAFAFA;;
-  width: 700px;
-}
+  width: 750px;
+  margin-top: 0px;
+  padding-left: 0px;
+  float: left;
+  }
 
 .main_content_images_li {
   float: left;
@@ -382,5 +381,79 @@ p {
   color: red;
   text-decoration: underline;
 }
+
+#amsterdamlogo {
+  width: 300px;
+  height: 200px;
+  border-style: none;
+  background-color: #B22222;
+  z-index: 1000;
+  top: 80px;
+  left: 550px;
+  position: absolute;
+  /*opacity: 0.8;*/
+}
+
+#amsterdamlogo_firstrow {
+  color: white;
+  z-index: 1000;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 50px;
+  font-family: Baskerville;
+  margin-bottom: 0px;
+}
+
+#amsterdamlogo_secondrow {
+  color: white;
+  z-index: 1000;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 30px;
+  font-family: Baskerville;
+}
+
+#forkknife_1 {
+  position: absolute;
+  z-index: 1000;
+  left: 1158px;
+  top: 530px;
+  z-index: 1000;
+  top: 190px;
+  left: 570px;
+  border-style: none;
+}
+
+#forkknife_2 {
+  position: absolute;
+  z-index: 1000;
+  left: 1158px;
+  top: 530px;
+  z-index: 1000;
+  top: 190px;
+  left: 660px;
+}
+
+#forkknife_3 {
+  position: absolute;
+  z-index: 1000;
+  left: 1158px;
+  top: 530px;
+  z-index: 1000;
+  top: 190px;
+  left: 750px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
