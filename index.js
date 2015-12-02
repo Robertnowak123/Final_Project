@@ -6,13 +6,13 @@ $( document ).ready(function() {
 
 // Image Carousell
 
-jQuery(document).ready(function ($) {
+// jQuery(document).ready(function ($) {
 
-  $('#checkbox').change(function(){
-    setInterval(function () {
-        moveRight();
-    }, 3000);
-  });
+  // $('#checkbox').change(function(){
+  //   setInterval(function () {
+  //       moveRight();
+  //   }, 3000);
+  // });
   
 	var slideCount = $('#slider ul li').length;
 	var slideWidth = $('#slider ul li').width();
@@ -28,7 +28,7 @@ jQuery(document).ready(function ($) {
     function moveLeft() {
         $('#slider ul').animate({
             left: + slideWidth
-        }, 200, function () {
+        }, 300, function () {
             $('#slider ul li:last-child').prependTo('#slider ul');
             $('#slider ul').css('left', '');
         });
@@ -37,7 +37,7 @@ jQuery(document).ready(function ($) {
     function moveRight() {
         $('#slider ul').animate({
             left: - slideWidth
-        }, 200, function () {
+        }, 300, function () {
             $('#slider ul li:first-child').appendTo('#slider ul');
             $('#slider ul').css('left', '');
         });
@@ -50,7 +50,7 @@ jQuery(document).ready(function ($) {
     $('a.control_next').click(function () {
         moveRight();
     });
-}); 
+// }); 
 
 // Image Carousell -- end
 
@@ -60,7 +60,7 @@ jQuery(document).ready(function ($) {
 
         console.log($(window).scrollTop());
 
-        if ($(window).scrollTop() >450 && $(window).scrollTop() <=900){
+        if ($(window).scrollTop() >590 && $(window).scrollTop() <=900){
 
                 $("#googlemaps_1").css({
                 "top": "28%",

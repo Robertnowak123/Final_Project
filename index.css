@@ -23,6 +23,7 @@
   background-color: #B22222;
   position: fixed;
   margin-top: -20px;
+  z-index: 10000;
 }
 
 .header_ul {
@@ -190,15 +191,15 @@ a.control_prev {
 a.control_next {
   right: 0;
   border-radius: 2px 0 0 2px;
-  margin-right: 112px;
+  margin-right: 122px;
 }
-
+/*
 .slider_option {
   position: relative;
   margin: 10px auto;
   width: 160px;
   font-size: 18px;
-}
+}*/
 
 .introduction_box {
   float: left;
@@ -215,8 +216,8 @@ a.control_next {
 
 #left_map_1 {
   float: left;
-  height: 3294;
-  width: 350;
+  height: 3294px;
+  width: 350px;
   margin-left: 95px;
   border-style: solid;
 }
@@ -225,9 +226,10 @@ a.control_next {
   background-attachment: fixed;
   background-repeat: no-repeat;
   margin-top: 50px;
-  border-radius: 20px;
+  border: 5px solid black;
   margin-left: 25px;
   clear: both;
+  overflow: hidden;
 /*  display: none;*/
 }
 
@@ -288,7 +290,8 @@ a.control_next {
   position: static;
   padding-left: 50px;
   border-style: solid;
-  width: 788;
+  width: 788px;
+  background-color: #FAFAFA;
 }
 
 #main_content_2 {
@@ -296,7 +299,8 @@ a.control_next {
   position: static;
   padding-left: 50px;
   border-style: solid;
-  width: 788;
+  width: 788px;
+  background-color: #FAFAFA;
 }
 
 #main_content_3 {
@@ -304,7 +308,8 @@ a.control_next {
   position: static;
   padding-left: 50px;
   border-style: solid;
-  width: 788;
+  width: 788px;
+  background-color: #FAFAFA;
 }
 
 #main_content_4 {
@@ -312,7 +317,8 @@ a.control_next {
   position: static;
   padding-left: 50px;
   border-style: solid;
-  width: 788;
+  width: 788px;
+  background-color: #FAFAFA;
 }
 
 #main_content_5 {
@@ -320,7 +326,8 @@ a.control_next {
   position: static;
   padding-left: 50px;
   border-style: solid;
-  width: 788;
+  width: 788px;
+  background-color: #FAFAFA;
 }
 
 #main_content_1, #main_content_2, #main_content_3, #main_content_4, #main_content_5 {
@@ -330,20 +337,50 @@ a.control_next {
 h2 {
   padding-left: 0px;
   padding-top: 40px;
-}
 
+}
+ 
 p {
   font-size: 18px;
 }
 
+.main_content_images_ul {
+  background-color: #FAFAFA;;
+  width: 700px;
+}
 
+.main_content_images_li {
+  float: left;
+  display: inline;
+  width: 200px;
+  margin-left: 32px;
+}
 
+.main_content_images_li img {
+  float: left;
+  display: inline;
+  border-radius: 15px;
+  vertical-align: top;
+}
 
+#main_content_1_text p {
+  float: left;
+  display: inline-block;
+  margin-right: 30px;
+  text-align: justify;
+  width: 350px;
+  height: 300px;
+  font-family: Baskerville;
+}
 
+#main_content_1_text p a {
+  color: black;
+  font-family: Baskerville;
+}
 
-
-
-
-
+#main_content_1_text p a:hover {
+  color: red;
+  text-decoration: underline;
+}
 
 
