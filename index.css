@@ -185,10 +185,10 @@ a.control_prev {
 }
 
 a.control_next {
-  right: 0;
+  right: 0%;
   border-radius: 2px 0 0 2px;
   margin-right: 122px;
-}
+} 
 /*
 .slider_option {
   position: relative;
@@ -204,10 +204,11 @@ a.control_next {
   margin-left: 95px;
   margin-right: 104px;
   border-style: solid;
+  font-family: Baskerville;
 }
 
 .introduction {
-  font-size: 20px
+  font-size: 30px
 }
 
 #left_map_1 {
@@ -215,14 +216,13 @@ a.control_next {
   height: 3294px;
   width: 350px;
   margin-left: 95px;
-  border-style: solid;
+  border-style: dotted;
+  border-radius: 25px;
+  background-color: #FAFAFA;
 }
-
+    
 #googlemaps_1 {
-  background-attachment: fixed;
-  background-repeat: no-repeat;
   margin-top: 50px;
-  border: 5px solid black;
   margin-left: 25px;
   clear: both;
   overflow: hidden;
@@ -230,10 +230,7 @@ a.control_next {
 }
 
 #googlemaps_2 {
-  background-attachment: fixed;
-  background-repeat: no-repeat;
   margin-top: 50px;
-  border-radius: 20px;
   z-index: 1000;
   position: absolute;
   clear: both;
@@ -243,10 +240,7 @@ a.control_next {
 }
 
 #googlemaps_3 {
-  background-attachment: fixed;
-  background-repeat: no-repeat;
   margin-top: 50px;
-  border-radius: 20px;
   z-index: 1000;
   position: absolute;
   clear: both;
@@ -256,10 +250,7 @@ a.control_next {
 }
 
 #googlemaps_4 {
-  background-attachment: fixed;
-  background-repeat: no-repeat;
   margin-top: 50px;
-  border-radius: 20px;
   z-index: 1000;
   position: absolute;
   clear: both;
@@ -269,10 +260,7 @@ a.control_next {
 }
 
 #googlemaps_5 {
-  background-attachment: fixed;
-  background-repeat: no-repeat;
   margin-top: 50px;
-  border-radius: 20px;
   z-index: 1000;
   position: absolute;
   clear: both;
@@ -288,6 +276,10 @@ a.control_next {
   border-style: solid;
   width: 788px;
   background-color: #FAFAFA;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  border-color: #848484;
+  margin-left: 5px;
 }
 
 #main_content_2 {
@@ -297,6 +289,10 @@ a.control_next {
   border-style: solid;
   width: 788px;
   background-color: #FAFAFA;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  border-color: #848484;
+  margin-left: 5px;
 }
 
 #main_content_3 {
@@ -306,6 +302,10 @@ a.control_next {
   border-style: solid;
   width: 788px;
   background-color: #FAFAFA;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  border-color: #848484;
+  margin-left: 5px;
 }
 
 #main_content_4 {
@@ -315,6 +315,10 @@ a.control_next {
   border-style: solid;
   width: 788px;
   background-color: #FAFAFA;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  border-color: #848484;
+  margin-left: 5px;
 }
 
 #main_content_5 {
@@ -324,6 +328,10 @@ a.control_next {
   border-style: solid;
   width: 788px;
   background-color: #FAFAFA;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  border-color: #848484;
+  margin-left: 5px;
 }
 
 #main_content_1, #main_content_2, #main_content_3, #main_content_4, #main_content_5 {
