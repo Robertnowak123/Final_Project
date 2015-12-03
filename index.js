@@ -1,19 +1,14 @@
 $( document ).ready(function() {
 
-	$('.hamburgermenu').on('click', function() {
-		$(this).next().toggleClass('active');
+// Animation of Hamburgermenu
+
+    $('.hamburgermenu').on('click', function() {
+	    $(this).next().toggleClass('active');
 	});
 
-// Image Carousell
+// Animation of Image Carousell
 
-// jQuery(document).ready(function ($) {
-
-  // $('#checkbox').change(function(){
-  //   setInterval(function () {
-  //       moveRight();
-  //   }, 3000);
-  // });
-  
+ 
 	var slideCount = $('#slider ul li').length;
 	var slideWidth = $('#slider ul li').width();
 	var slideHeight = $('#slider ul li').height();
@@ -50,20 +45,18 @@ $( document ).ready(function() {
     $('a.control_next').click(function () {
         moveRight();
     });
-// }); 
 
-// Image Carousell -- end
 
-// Moving Smallmap animation -- start
+// Animation of Moving Googlemaps APIs
 
     $(window).scroll(function(){
 
         console.log($(window).scrollTop());
 
-        if ($(window).scrollTop() >590 && $(window).scrollTop() <=900){
+        if ($(window).scrollTop() >700 && $(window).scrollTop() <=1300){
 
                 $("#googlemaps_1").css({
-                "top": "28%",
+                "top": "31%",
                 "position": "fixed",
                 "display": "inline",
                 });
@@ -71,7 +64,7 @@ $( document ).ready(function() {
                 "display": "none",
                 });
 
-        } else if ($(window).scrollTop() >900){
+        } else if ($(window).scrollTop() >1300){
 
                 $("#googlemaps_1").css({
                  "display": "none"
@@ -88,15 +81,15 @@ $( document ).ready(function() {
 
         console.log($(window).scrollTop());
 
-        if ($(window).scrollTop() >900 && $(window).scrollTop() <=1600){
+        if ($(window).scrollTop() >1300 && $(window).scrollTop() <=2000){
 
                 $("#googlemaps_2").css({
-                "top": "28%",
+                "top": "31%",
                 "position": "fixed",
                 "display": "inline",
                 });
 
-        } else if ($(window).scrollTop() >1600){
+        } else if ($(window).scrollTop() >2000){
 
                 $("#googlemaps_2").css({
                  "display": "none"
@@ -115,15 +108,15 @@ $( document ).ready(function() {
 
         console.log($(window).scrollTop());
 
-        if ($(window).scrollTop() >1600 && $(window).scrollTop() <=2200){
+        if ($(window).scrollTop() >2000 && $(window).scrollTop() <=2600){
 
                 $("#googlemaps_3").css({
-                "top": "28%",
+                "top": "31%",
                 "position": "fixed",
                 "display": "inline",
                 });
 
-        } else if ($(window).scrollTop() >2200){
+        } else if ($(window).scrollTop() >2600){
 
                 $("#googlemaps_3").css({
                  "display": "none"
@@ -141,15 +134,15 @@ $( document ).ready(function() {
 
         console.log($(window).scrollTop());
 
-        if ($(window).scrollTop() >2200 && $(window).scrollTop() <=2700){
+        if ($(window).scrollTop() >2600 && $(window).scrollTop() <=3200){
 
                 $("#googlemaps_4").css({
-                "top": "28%",
+                "top": "31%",
                 "position": "fixed",
                 "display": "inline",
                 });
 
-        } else if ($(window).scrollTop() >2700){
+        } else if ($(window).scrollTop() >3200){
 
                 $("#googlemaps_4").css({
                  "display": "none"
@@ -167,15 +160,15 @@ $( document ).ready(function() {
 
         console.log($(window).scrollTop());
 
-        if ($(window).scrollTop() >2700 && $(window).scrollTop() <=3000){
+        if ($(window).scrollTop() >3200 && $(window).scrollTop() <=3600){
 
                 $("#googlemaps_5").css({
-                "top": "28%",
+                "top": "31%",
                 "position": "fixed",
                 "display": "inline",
                 });
 
-        } else if ($(window).scrollTop() >3000){
+        } else if ($(window).scrollTop() >3600){
 
                 $("#googlemaps_5").css({
                  "display": "none"
@@ -187,15 +180,6 @@ $( document ).ready(function() {
                  "position": "static",
                  "display": "none"
                 });
-        }});
-        
-
-// Moving Smallmap animation -- end
-
-
-
-
-
-
-
+    }}); 
+    
 });
